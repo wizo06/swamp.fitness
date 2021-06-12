@@ -1,0 +1,32 @@
+site_name: Swamp Fitness
+site_url: https://example.com/
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: slate
+    primary: lime
+    accent: deep orange
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/VG2nGw4
+copyright: "&copy; 2021 Swamp Fitness"
+nav:
+  - Home: 'index.md'
+  - Resources: 'resources.md'
+  - VOD: 'vod.md'
+  - LucidSky: 'lucidsky.md'
