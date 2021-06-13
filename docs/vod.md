@@ -1,3 +1,9 @@
+---
+hide:
+    - navigation
+    - toc
+---
+
 !!! info "Announcement"
     VODs are now password protected until further notice. The password is only available for Twitch subscribers. If you are a subscriber, you can access the password in the subscriber-only chat in the Swamp Fitness' [Discord](https://discord.gg/VG2nGw4).
 

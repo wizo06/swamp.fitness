@@ -19,28 +19,3 @@
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
 -->
-
-{% import "partials/language.html" as lang with context %}
-
-<!-- Footer -->
-<footer class="md-footer">
-
-  <!-- Further information -->
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-
-      <!-- Copyright and theme information -->
-      <div class="md-footer-copyright">
-        {% if config.copyright %}
-          <div class="md-footer-copyright__highlight">
-            {{ config.copyright }}
-          </div>
-        {% endif %}
-        {{ extracopyright }}
-      </div>
-
-      <!-- Social links -->
-      {% include "partials/social.html" %}
-    </div>
-  </div>
-</footer>

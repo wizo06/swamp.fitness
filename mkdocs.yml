@@ -1,17 +1,46 @@
+# Project information
 site_name: Swamp Fitness
-site_url: https://example.com/
+site_url: https://swamp.fitness/
+site_description: Swamp Fitness is a gymnasium for getting fit artistically.
+
+# Repository
+repo_name: Join us on Discord!
+repo_url: https://discord.gg/VG2nGw4
+edit_uri: ""
+
+# Copyright
+copyright: "&copy; 2021 Swamp Fitness"
+
+# Configuration
 theme:
   name: material
   custom_dir: overrides
-  palette:
-    scheme: slate
-    primary: lime
-    accent: deep orange
+
   features:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.top
+
+  palette:
+    scheme: slate
+    primary: lime
+    accent: pink
+
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/discord
+
+ # Customization 
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/VG2nGw4
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -20,13 +49,12 @@ markdown_extensions:
       permalink: true
   - admonition
   - attr_list
-extra:
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/VG2nGw4
-copyright: "&copy; 2021 Swamp Fitness"
+
+# Page tree
 nav:
   - Home: 'index.md'
   - Resources: 'resources.md'
   - VOD: 'vod.md'
-  - LucidSky: 'lucidsky.md'
+  - Gym Leader: 'lucidsky.md'
+  # - My Keyboards: 'kbd.md'
+  # - Gacha Catalyst: 'gacha.md'

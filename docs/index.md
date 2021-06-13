@@ -1,7 +1,11 @@
+---
+hide:
+    - navigation
+    - toc
+---
+
 # Welcome to Swamp Fitness
 
-**Swamp Fitness is a gymnasium for getting fit artistically.**
+Swamp Fitness is a gymnasium for getting fit artistically, and it's led by our gym leader [LucidSky](lucidsky.md).
 
-Our gym leader is none other than [LucidSky](lucidsky.md)!
-
-[:fontawesome-brands-discord: Join us on Discord!](https://discord.gg/VG2nGw4){ .md-button .md-button--primary }
+Start getting fit now!
