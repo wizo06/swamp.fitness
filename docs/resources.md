@@ -5,7 +5,7 @@ hide:
 
 # Resources
 
-Here you can find a list of resources curated by [LucidSky](gym-staff.md#leader).
+Here you can find a list of resources curated by [LucidSky](gym-staff.md#leader). It's still a work in progress but hopefully these resources are enough to get you started.
 
 ## CSP Brushes
 
